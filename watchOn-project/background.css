@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(235, 235, 177);
+    text-align: center;
+}
+.nineteen-nineteen-two{
+  border-radius: 20px;
+  height: 250px;
+  
+}
+.school-for-good-and-evil{
+    border-radius: 20px;
+    height: 250px;
+
+}
+.mad-max{
+    border-radius: 20px;
+    height: 250px;
+}
+
+.taylorSwift{
+    border-radius: 20px;
+    height: 250px;
+}
+
+.argylle{
+    border-radius: 20px;
+    height: 250px;
+}
+para1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-movie{
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+    
+}
+.search1{
+    outline: none;
+    background: transparent;
+    border: 2px solid transparent;
+    
+    color: grey;
+    background-color: rgb(200, 200, 200);
+    padding: 5px;
+    cursor: pointer;
+    animation: borderGlow 4s linear infinite;
+    box-sizing: border-box;
+    overflow: visible;
+    @keyframes borderGlow {
+        0%{
+            background-position:0%;
+        }
+        100%{
+            background-position:200%
+        }
+    }
+}
+
+.toggle-button{
+    background-color: rgb(230, 230, 230);
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    color: black;
+
+}
+
+.is-toggled{
+    background-color: black;
+    color: white;
+}
+.movie-item{
+    overflow: hidden;
+}
+
+.nineteen-nineteen-two:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.school-for-good-and-evil:hover {
+    transform: scale(1.1);
+}
+
+.mad-max:hover {
+    transform: scale(1.1);
+}
+
+.taylorSwift:hover{
+    transform: scale(1.1);
+}
+
+.argylle:hover{
+    transform: scale(1.1);
+}
+
